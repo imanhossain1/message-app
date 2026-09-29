@@ -5,12 +5,14 @@ const navItems = [
   { name: "Home", route: "/" },
   { name: "Messages", route: "/messages" },
   { name: "Profile", route: "/profile" },
+  { name: "Login", route: "/login" },
+  { name: "Signup", route: "/signup" },
 ];
 
 const Navbar = () => {
   return (
     <div className="navbar bg-base-100 shadow-sm px-4 md:px-8">
-      
+
       {/* Logo */}
       <div className="flex-1">
         <Link href="/" className="text-2xl font-bold">
