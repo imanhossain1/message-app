@@ -22,34 +22,16 @@ import form home  page components file
 <!-- page  -->
 /login 
 /signup
+/chat/[id] page 
+
+
+not app file 
+data/users.ts -- onek data export and import form activeUsers page 
 
 
 
 
 
-
-<!-- ========= project setup file  -->
-
-```text
-src/
-└── app/
-    ├── globals.css
-    ├── layout.tsx       ← পুরো website-এর common layout
-    ├── page.tsx         ← Home page (/)
-    │
-    ├── login/
-    │   └── page.tsx     ← /login
-    │
-    ├── signup/
-    │   └── page.tsx     ← /signup
-    │
-    ├── chat/
-    │   └── [id]/
-    │       └── page.tsx ← /chat/1, /chat/2...
-    │
-    └── profile/
-        └── page.tsx     ← /profile
-```
 
 Navbar / footer 
    ↓

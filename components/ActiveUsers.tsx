@@ -1,25 +1,7 @@
-const users = [
-  {
-    id: 1,
-    name: "Rahim",
-    status: "Online",
-  },
-  {
-    id: 2,
-    name: "Karim",
-    status: "Online",
-  },
-  {
-    id: 3,
-    name: "Sakib",
-    status: "Offline",
-  },
-  {
-    id: 4,
-    name: "Nadia",
-    status: "Online",
-  },
-];
+
+import users from "../data/users";
+import Link from "next/link";
+
 
 const ActiveUsers = () => {
   return (
@@ -66,9 +48,10 @@ const ActiveUsers = () => {
                   </div>
                 </div>
 
-                <button className="btn btn-primary btn-sm mt-4">
+                <Link href={`/chat/${user.id}`} className="btn btn-primary btn-sm mt-4">
                   Chat
-                </button>
+                </Link>
+
               </div>
             </div>
           ))}
