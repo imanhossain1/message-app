@@ -10,8 +10,11 @@ other package ui use -
 @plugin "daisyui";
 
 
+project file ======== 
+components/ navbar 
+components/ footer 
+components/ Hero
+components/ ActiveUsers
 
 
-
-<!-- ========= project setup file  -->
 
